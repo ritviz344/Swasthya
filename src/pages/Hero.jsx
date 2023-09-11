@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
+import icon  from "../assets/healthcare.png"
+
+
 import Footer from "../components/footer";
 import Main from "./Main";
 import Features from "../components/Features";
@@ -26,10 +29,10 @@ export default function Example() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Swasthya</span>
               <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-10 w-auto"
+                src={icon}
                 alt=""
               />
             </a>
@@ -49,7 +52,7 @@ export default function Example() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-l font-semibold leading-9 text-gray-900"
               >
                 {item.name}
               </a>

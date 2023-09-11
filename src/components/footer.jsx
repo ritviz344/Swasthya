@@ -1,4 +1,5 @@
 import React from 'react'
+import icon  from "../assets/healthcare.png"
 
 export default function Footer() {
     return (
@@ -10,7 +11,7 @@ export default function Footer() {
             <div className="flex  flex-col items-start justify-start xl:justify-center xl:space-x-8 xl:flex-row">
               <div className="flex justify-start items-center space-x-4">
                 <div className="cursor-pointer w-12">
-                  <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/footer_5_marketing_svg1.svg" alt="logo" />
+                  <img src={icon} alt="logo" />
                 </div>
                 
                 <p className="w-60 text-xl xl:text-2xl font-semibold leading-normal text-white">The Bihari</p>
