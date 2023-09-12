@@ -11,12 +11,14 @@ import React from "react";
 
 import Hero from "./pages/Hero";
 import NotFound from "./components/NotFound";
+import Slidebar from "./pages/slide"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<Hero />} />
+      <Route path="/" element={<Hero/>} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/ss" element={<Slidebar />} />
     </>
   )
 );
@@ -28,6 +30,8 @@ const router = createBrowserRouter(
 export default function App() {
   return <RouterProvider router={router} />;
 }
+
+
 
 /*
 

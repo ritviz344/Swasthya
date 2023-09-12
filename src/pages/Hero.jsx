@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import icon  from "../assets/healthcare.png"
 
-
+import Report from "../components/report"
 import Footer from "../components/footer";
 import Main from "./Main";
 import Features from "../components/Features";
@@ -186,6 +186,7 @@ export default function Example() {
 
       
     </div>
+    <Report/>
     <Features/>
     <Footer />
     </div>
