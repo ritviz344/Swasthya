@@ -18,7 +18,7 @@ const router = createBrowserRouter(
     <>
       <Route path="/" element={<Hero/>} />
       <Route path="*" element={<NotFound />} />
-      <Route path="/ss" element={<Slidebar />} />
+      <Route path="/slide" element={<Slidebar />} />
     </>
   )
 );
